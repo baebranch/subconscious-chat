@@ -4,10 +4,10 @@
 
 
 /* Custom default button */
-.btn-light,
-.btn-light:hover,
-.btn-light:focus {
-  color: #333;
+.btn-dark,
+.btn-dark:hover,
+.btn-dark:focus {
+  color: #d6d6d6;
   text-shadow: none; /* Prevent inheritance from `body` */
 }
 
@@ -31,13 +31,13 @@ body {
  */
 
 .nav-masthead .nav-link {
-  color: rgba(255, 255, 255, .5);
+  color: #141414;
   border-bottom: .25rem solid transparent;
 }
 
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
-  border-bottom-color: rgba(255, 255, 255, .25);
+  border-bottom-color: rgb(42, 42, 42);
 }
 
 .nav-masthead .nav-link + .nav-link {
@@ -45,6 +45,6 @@ body {
 }
 
 .nav-masthead .active {
-  color: #fff;
-  border-bottom-color: #fff;
+  color: #191919;
+  border-bottom-color: #1f1f1f;
 }
